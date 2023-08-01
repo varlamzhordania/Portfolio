@@ -4,6 +4,7 @@ import About from "../../components/(main)/About/About";
 import Projects from "../../components/(main)/Projects/Projects";
 import Services from "../../components/(main)/Services/Services";
 import Skills from "../../components/(main)/Skills/Skills";
+import Hire from "../../components/(main)/Hire/Hire";
 
 export const metadata = {
     title: "Varlam Zhordania",
@@ -43,6 +44,7 @@ export default async function page() {
             <Skills />
             <Projects />
             <Services />
+            <Hire />
         </section>
     )
 }

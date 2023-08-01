@@ -1,12 +1,10 @@
 import MyPaper from "../MyPaper/MyPaper";
-import {Box, Card, CardContent, Divider, Grid, Stack, Typography} from "@mui/material";
+import {Box, Card, CardContent, Divider, Grid, Typography} from "@mui/material";
 import Content from "../Content/Content";
 import NavigateSection from "../NavigateSection/NavigateSection";
 import Image from "next/image";
 import styles from "./About.module.css"
-import SkillProgress from "../SkillProgress/SkillProgress";
-import Social from "../Social/Social";
-import {FadeInWhenVisible, FadeInWhenVisibleSoft, SlideInWhenVisibleSoft} from "../../../animations";
+import {SlideInWhenVisibleSoft} from "../../../animations";
 import PersonalInfo from "./PersonalInfo";
 
 
@@ -69,7 +67,7 @@ const About = () => {
                     <Grid item xs={12} sm={6} lg={3}>
                         <SlideInWhenVisibleSoft delay={1.5} duration={1} once={true}>
                             <Box className={styles.imageBox}>
-                                <Image src={"/portrait.jpg"} alt={"varlam zhordania"} fill={true}/>
+                                <Image src={"/#"} alt={"varlam zhordania"} fill={true} />
                                 <div className={styles.item}/>
                                 <div className={styles.item}/>
                                 <div className={styles.item}/>

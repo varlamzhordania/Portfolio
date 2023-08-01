@@ -49,7 +49,7 @@ const Services = () => {
                         </SlideInWhenVisibleSoft>
                     </Grid>
                 </Grid>
-                <NavigateSection to={"#services"} lft={true}/>
+                <NavigateSection to={"#hire"} lft={true}/>
                 <NavigateSection to={"#projects"} lft={false}/>
             </Content>
         </MyPaper>

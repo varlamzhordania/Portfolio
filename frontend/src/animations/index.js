@@ -53,6 +53,23 @@ export const SlideInWhenVisibleSoft = ({children, delay, duration, once, style})
         </motion.div>
     );
 }
+export const SlideInOutPage = ({children, delay, duration, once, style}) => {
+    return (
+        <motion.div
+            initial="hidden"
+            whileInView={"visible"}
+            viewport={{once}}
+            transition={{duration, delay}}
+            variants={{
+                visible: {opacity: 1, x: 0},
+                hidden: {opacity: 0, x: -1000}
+            }}
+            style={style}
+        >
+            {children}
+        </motion.div>
+    );
+}
 
 
 export const CrashVisible = ({children, delay, duration, once, style}) => {

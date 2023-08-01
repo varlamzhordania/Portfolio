@@ -15,7 +15,7 @@ const Skills = () => {
                 </Typography>
                 <Stack direction={"row"} gap={3} justifyContent={"center"} alignItems={"start"} flexWrap={"wrap"}>
                     {Data.map((item, index) =>
-                        <FadeInWhenVisibleSoft once={true} duration={1} delay={index} style={{width:"18%"}} >
+                        <FadeInWhenVisibleSoft once={true} duration={0.7} delay={index - 0.7} style={{width:"18%"}} >
                             <SkillProgress key={index} value={item.value} title={item.name}/>
                         </FadeInWhenVisibleSoft>
                     )}

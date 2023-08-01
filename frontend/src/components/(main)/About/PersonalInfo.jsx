@@ -1,5 +1,4 @@
 import {Stack, Typography} from "@mui/material";
-import Social from "../Social/Social";
 import {SlideInWhenVisibleSoft} from "../../../animations";
 
 const PersonalInfo = () => {
@@ -50,11 +49,6 @@ const PersonalInfo = () => {
                     <Typography>Email :</Typography>
                     <Typography sx={{color: "text.contrast"}}
                                 fontWeight={700}>zhordaniavarlam@gmail.com</Typography>
-                </Stack>
-                <Stack direction={"row"} gap={1} alignItems={"center"} width={"auto"}
-                       justifyContent={"flex-start"}>
-                    <Typography>Platforms :</Typography>
-                    <Social/>
                 </Stack>
                 <Stack direction={"row"} gap={1} alignItems={"center"} width={"auto"}
                        justifyContent={"flex-start"}>

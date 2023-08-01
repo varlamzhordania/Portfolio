@@ -2,10 +2,19 @@
     height: 100vh;
     z-index: 1;
 }
-.text{
+
+.text {
+    position: absolute;
+    z-index: 1;
+    top: 2%;
+    right: 2%;
+    font-family: var(--font-family-counter) !important;
+}
+
+.logo {
     position: absolute;
     z-index: 1;
     top: 2%;
     left: 2%;
-    font-family: var(--font-family-counter) !important;
+    border-radius: 50%;
 }
