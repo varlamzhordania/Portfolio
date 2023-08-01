@@ -1,0 +1,30 @@
+.next, .prev {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    box-shadow: 0 0 24px 8px var(--secondary-main);
+    text-decoration: none;
+    bottom: 7%;
+    background-color: var(--background-light);
+}
+
+.next {
+    right: 5%;
+    padding: 2px 2px 2px 15px;
+}
+
+
+.prev {
+    left: 5%;
+    padding: 2px 15px 2px 2px;
+}
+
+
+.next:hover, .next:active, .next:focus, .prev:hover, .prev:active, .prev:focus {
+    background-color: var(--secondary-main);
+    color: var(--text-contrast);
+}

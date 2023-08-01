@@ -1,0 +1,32 @@
+
+.wrapper {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.item {
+    position: absolute;
+    display: block;
+    height: 100px;
+    width: 100px;
+}
+
+.item:nth-child(2) {
+    top: 0;
+    left: 4rem;
+    bottom: 0;
+    margin: auto;
+    background-color: var(--primary-light);
+    transform: rotate(15deg) scale(3);
+}
+
+.item:nth-child(3) {
+    top: 5rem;
+    right: 4rem;
+    margin: auto;
+    background-color: var(--secondary-light);
+    transform: rotate(15deg) scale(1);
+    border-radius: 50%;
+}
